@@ -1,0 +1,231 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+/* ヘッダー */
+header {
+  height: 50px;
+  background-color: rgb(238, 227, 228);
+  padding: 10px 0;
+  display: flex;
+}
+
+.heading {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.navbar {
+  width: 50%;
+  padding: 20px;
+}
+
+.nav-lists {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+a{
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+
+.contents {
+  background-color: white;
+}
+
+.first-view{
+  height: 60vh;
+}
+
+.top-image {
+  height: 100%;
+  width: 100%;
+}
+
+/* 背景画像にする */
+
+.top-manu{
+  background-image: url(/Users/itoairi/portfolio/sakura.jpg);
+  background-size: cover;
+  background-position: left;
+    background-position-x: left;
+    background-position-y: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-msg{
+  color:rgb(10, 83, 19);
+  font-family: 'Unna', serif;
+  font-size: x-large;
+}
+
+
+
+/* プロフィール部分 */
+.upper-content{
+  text-align: center;
+  margin: 0 160px;
+}
+
+
+.heading-name {
+  text-align: center;
+  border-bottom: 1px solid rgb(196, 54, 120);
+  width: 200px;
+  margin: 40px auto;
+}
+
+.top-image{
+  text-align: center;
+  border-radius: 50%;
+  height: 250px;
+  width: 270px;
+}
+
+.profile{
+  text-align: center;
+}
+
+.profile h4{
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+
+
+/* work部分 */
+.middle-content{
+  margin: 0 160px;
+  text-align: center;
+}
+
+.work-image {
+  height: 300px;
+}
+
+.work-title {
+  font-size: 16px;
+  text-align: center;
+}
+
+
+/* award部分 */
+.medium-content {
+  text-align: center;
+  background-color: rgb(250, 236, 245);
+}
+
+.award-list{
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0;
+}
+
+.award-image{
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.award-title{
+  font-size: 16px;
+  text-align: center;
+}
+
+/* cando部分 */
+
+.under-content{
+  text-align: center;
+}
+
+.studying{
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  margin-bottom: 20px;
+}
+
+.license{
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  margin-bottom: 20px;
+}
+
+
+/* フォーム部分 */
+.bottom-content {
+  height: 800px;
+  margin: 0 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-field, .large-field {
+  width: 400px;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #b5aaaa;
+  display: block;
+}
+
+.small-field {
+  margin: 0 auto 15px;
+}
+
+.large-field {
+  height: 200px;
+  margin: 0 auto 30px;
+}
+
+.send {
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid white;
+  background-color: rgb(148, 108, 136);
+  color:white;
+  display: block;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.fab{
+  color: rgb(202, 32, 89);
+  font-size: x-large;
+  padding: 0 50px;
+}
+
+/* フッター */
+footer {
+  height: 50px;
+  background-color: #f0f0f0;
+  text-align: center;
+  color: gray;
+}
